@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 160rem;
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 30px;
+    border-color: #000;
+}
+
+.logo{
+    width: 489px;
+    height: 137px;
+    flex-shrink: 0;
+    color: var(--Vermelho, #9B2B2B);
+    font-family: Karantina;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+   
+    height: 69.152px;
+    flex-shrink: 0;
+    color: var(--Preto, #000);
+    font-family: Karantina;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.img1 img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+    flex-shrink: 0;
+    opacity: 0.98;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.sobre {
+    padding: 80px;
+    color: var(--Preto, #000);
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1448.878px;
+    height: 340px;
+    flex-shrink: 0;
+}
+.sobre p{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marcas{
+    color: var(--Preto, #000);
+    font-family: Nunito;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.marcas2{
+    color: var(--Amarelo, #FFD465);
+    font-family: Nunito;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.img_marcas{
+    background-color: antiquewhite;
+    display: grid;
+    place-items: center;
+   
+    grid-template-columns: 80%;
+}
+.img_marcas img{
+    width: 30%;
+    max-width: 42%;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    padding: 60px;
+    height: 50rem;
+
+}
+.cadastro{
+    display: grid;
+    width: 75%;
+    height: 100%;
+    background-color: #FFD465;
+    padding: 22px;
+
+}
+.form{
+    color: var(--Branco, #ffffff);
+    padding: 30px;
+    font-size: 22px;
+}
+.form_grupo{
+    padding: 14px;
+}
+.cadastro h1 {
+    color: var(--Branco, #ffffff);
+    font-family: Nunito;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.cadastro h2{
+    padding: 10px;
+    color: var(--Branco, #ffffff);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.texto_cadastro h2{
+    position: relative;
+    color: var(--Amarelo, #FFD465);
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.texto_cadastro p{
+
+    padding-top: 40px;
+    color: var(--Preto, #000);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
