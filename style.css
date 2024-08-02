@@ -47,31 +47,27 @@ nav {
     justify-content: center;
 }
 .img1 img{
-    display: flex;
-    justify-content: center;
     width: 80%;
-    
+    height: 60rem;
     flex-shrink: 0;
     opacity: 0.98;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
 .sobre {
-    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
     color: var(--Preto, #000);
     font-family: Nunito;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 1448.878px;
-    height: 340px;
-    flex-shrink: 0;
 }
-.sobre p{
-    display: grid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.text_marcas{
+    padding: 40px;
 }
 
 .marcas{
@@ -93,10 +89,9 @@ nav {
     text-transform: uppercase;
 }
 .img_marcas{
-    background-color: antiquewhite;
+    background-color: #333;
     display: grid;
     place-items: center;
-   
     grid-template-columns: 80%;
 }
 .img_marcas img{
@@ -107,16 +102,16 @@ nav {
     display: grid;
     grid-template-columns: 50% 50%; 
     padding: 60px;
-    height: 50rem;
+    height: 55rem;
 
 }
 .cadastro{
     display: grid;
     width: 75%;
-    height: 100%;
+    height: 85%;
     background-color: #FFD465;
     padding: 22px;
-
+    margin-left: auto;
 }
 .form{
     color: var(--Branco, #ffffff);
@@ -146,6 +141,9 @@ nav {
     text-transform: uppercase;
 }
 
+.texto_cadastro{
+    padding: 0% 30% 10% 10%; 
+}
 .texto_cadastro h2{
     position: relative;
     color: var(--Amarelo, #FFD465);
@@ -157,12 +155,31 @@ nav {
     text-transform: uppercase;
 }
 .texto_cadastro p{
-
     padding-top: 40px;
     color: var(--Preto, #000);
     font-family: Nunito;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ddd;
 }
